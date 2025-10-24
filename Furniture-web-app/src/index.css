@@ -1262,7 +1262,7 @@ body {
 
 
 .btn-place-order{
-   background-color: #ff4081;
+   background-color: #4caf50;
   color: white;
   border: none;
   padding: 12px 22px;
@@ -1274,6 +1274,6 @@ body {
 }
 
 .btn-place-order:active{
-  background-color: #4caf50;
+  background-color: #be2a05;
   transform: scale(1.1);
 }
