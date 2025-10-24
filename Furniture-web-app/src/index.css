@@ -1242,7 +1242,7 @@ body {
 
 
 .btn-add-bag {
-  background-color: #ff4081;
+  background-color:  #4caf50;
   color: white;
   border: none;
   padding: 12px 22px;
@@ -1255,14 +1255,14 @@ body {
 
 
 .btn-add-bag:active {
-  background-color: #4caf50;
+  background-color: #d4321f;
   transform: scale(1.1);
 }
 
 
 
 .btn-place-order{
-   background-color: #4caf50;
+   background-color: #ff4081;
   color: white;
   border: none;
   padding: 12px 22px;
@@ -1274,6 +1274,6 @@ body {
 }
 
 .btn-place-order:active{
-  background-color: #be2a05;
+  background-color: #4caf50;
   transform: scale(1.1);
 }
