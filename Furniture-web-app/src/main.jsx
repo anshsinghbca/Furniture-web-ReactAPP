@@ -12,6 +12,7 @@ import {Provider} from "react-redux"
 import furnioStore from './Store/index.js';
 
 
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -27,6 +28,7 @@ const router = createBrowserRouter([
     path: "/bag",
     element: <Bag />        // 🛍 separate layout (its own header/footer)
   }
+  
 ])
 
 createRoot(document.getElementById('root')).render(

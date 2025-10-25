@@ -265,12 +265,21 @@ img{
     display: flex;
     align-items: center;
     gap: 5px;
+    left: 10px;
   }
 
   .chullmull{
     margin-top: -1px;
   }
 }
+
+
+.dropdown{
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+
 
 
 

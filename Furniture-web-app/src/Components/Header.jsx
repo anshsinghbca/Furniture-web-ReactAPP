@@ -68,13 +68,63 @@ function Header() {
           </Link>
 
           <div className={`nav-links ${menuOpen ? "open" : ""}`} style={{backgroundColor:""}} >
+
+          <div className="dropdown">
+  <button className="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+   Chairs
+  </button>
+  <ul className="dropdown-menu">
+    <li><Link className="dropdown-item" to="https://www.flipkart.com/furniture/dining-tables-sets/pr?sid=wwe,ur9">Dining Chairs</Link></li>
+    <li><Link className="dropdown-item" to="#">Office Chair</Link></li>
+    <li><Link className="dropdown-item" to="#">Rocking Chairs</Link></li>
+  </ul>
+</div>
+
+<div className="dropdown">
+  <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Sofa
+  </button>
+  <ul className="dropdown-menu">
+   <li><Link className="dropdown-item" to="#">L-shaped</Link></li>
+    <li><Link className="dropdown-item" to="#">Sofa cum bed</Link></li>
+    <li><Link className="dropdown-item" to="#">Loveseat</Link></li>
+  </ul>
+</div>
+
+<div className="dropdown">
+  <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+   Bed
+  </button>
+  <ul className="dropdown-menu">
+   <li><Link className="dropdown-item" to="#">Platform Bed</Link></li>
+    <li><Link className="dropdown-item" to="#">Storage Bed</Link></li>
+    <li><Link className="dropdown-item" to="#">Bunk Bed</Link></li>
+  </ul>
+</div>
+
+<div className="dropdown">
+  <button className="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+   Kids Furnitures
+  </button>
+  <ul className="dropdown-menu">
+    <li><Link className="dropdown-item" to="#">Cribs</Link></li>
+    <li><Link className="dropdown-item" to="#">Playpens</Link></li>
+    <li><Link className="dropdown-item" to="#">Changing Tables</Link></li>
+  </ul>
+</div>
+<div className="dropdown">
+  <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+  Tables
+  </button>
+  <ul className="dropdown-menu">
+   <li><Link className="dropdown-item" to="#">Work Table </Link></li>
+    <li><Link className="dropdown-item" to="#">Outdoor Table</Link></li>
+    <li><Link className="dropdown-item" to="#">Coffee Table</Link></li>
+  </ul>
+</div>
+
           
-            <p>Chairs</p>
-            <p>Sofa</p>
-            <p>Bed</p>
-            <p>Wardrobes</p>
-            <p>Dining Chairs</p>
-            <p>Kids Furnitures</p>
+            
           </div>
 
           

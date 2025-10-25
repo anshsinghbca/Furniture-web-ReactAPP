@@ -20,6 +20,10 @@ const BagSummary = () => {
 
   let finalPayment = totalMRP - totalDiscount + CONVENIENCE_FEES;
 
+  const btnhandle=()=>{
+alert("Your Order Placed Successful")
+  }
+
   return (
     <div className="bag-summary">
       <div className="bag-details-container">
@@ -44,7 +48,7 @@ const BagSummary = () => {
           <span className="price-item-value">₹{finalPayment}</span>
         </div>
       </div>
-      <button className="btn-place-order">
+      <button className="btn-place-order" onClick={btnhandle}>
         <div className="css-xjhrni">PLACE ORDER</div>
       </button>
     </div>
